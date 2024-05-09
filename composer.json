@@ -15,17 +15,17 @@
     }
   ],
   "require": {
-    "php": "^8.1",
-    "illuminate/cache": "~10.0|~11.0",
-    "illuminate/container": "~10.0|~11.0",
-    "illuminate/contracts": "~10.0|~11.0",
-    "illuminate/support": "~10.0|~11.0",
-    "illuminate/routing": "~10.0|~11.0",
-    "illuminate/view": "~10.0|~11.0"
+    "php": ">=8.1",
+    "illuminate/cache": "*",
+    "illuminate/container": "*",
+    "illuminate/contracts": "*",
+    "illuminate/support": "*",
+    "illuminate/routing": "*",
+    "illuminate/view": "*"
   },
   "require-dev": {
-    "mockery/mockery": "^1.6",
-    "phpunit/phpunit": "^10.4"
+    "mockery/mockery": "*",
+    "phpunit/phpunit": "*"
   },
   "autoload": {
     "psr-4": {
